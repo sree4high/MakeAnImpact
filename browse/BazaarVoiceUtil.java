@@ -64,6 +64,16 @@ public class BazaarVoiceUtil {
 		return new UserToken(userID, sharedKey, emailId);
 	}
 
+	
+	/**
+	This method is added newly.
+	*/
+	public forFun(){
+	
+	//This is just for fun.
+	}
+	
+	
 	/**
 	 * A date-stamped stamped set of user attributes, including the user ID.
 	 */
