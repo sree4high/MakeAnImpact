@@ -65,6 +65,14 @@ public class BazaarVoiceUtil {
 	}
 
 	/**
+	This method is added newly.
+	*/
+	public forFun(){
+	
+	//This is just for fun.
+	}
+	
+	/**
 	 * A date-stamped stamped set of user attributes, including the user ID.
 	 */
 	private static class UserToken {
