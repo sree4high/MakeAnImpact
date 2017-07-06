@@ -55,5 +55,5 @@ public class BBBCaptchaServlet extends BBBDynamoServlet {
 		sessionBean.setCaptcha(captcha);
 		
 	}
-	
+	// What will happen?
 }
