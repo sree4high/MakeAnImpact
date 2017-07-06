@@ -773,7 +773,7 @@ public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 	public void setCcFlag(boolean mCcFlag) {
 		this.mCcFlag = mCcFlag;
 	}
-	
+	// Last one from : FILE
 
 
 }
