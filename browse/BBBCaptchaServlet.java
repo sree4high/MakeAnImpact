@@ -19,6 +19,7 @@ import com.bbb.profile.session.BBBSessionBean;
  * @author agupt8
  *
  */
+ // for conflict: FILE
 public class BBBCaptchaServlet extends BBBDynamoServlet {
 	protected int width=300;
 	protected int height=100;
