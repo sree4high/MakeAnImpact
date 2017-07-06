@@ -14,7 +14,7 @@ import atg.servlet.ServletUtil;
 
 import com.bbb.constants.BBBCoreConstants;
 import com.bbb.utils.BBBUtility;
-
+// From file browser
 public class BazaarVoiceUtil {
 	
 	private static final ApplicationLogging MLOGGING =
