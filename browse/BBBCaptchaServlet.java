@@ -20,9 +20,12 @@ import com.bbb.profile.session.BBBSessionBean;
  *
  */
  // for conflict: FILE
+// again for conflict : WEB
 public class BBBCaptchaServlet extends BBBDynamoServlet {
 	protected int width=300;
 	protected int height=100;
+	
+	// no conflict: WEB
 	
 	/* (non-Javadoc)
 	 * @see atg.servlet.DynamoServlet#service(atg.servlet.DynamoHttpServletRequest, atg.servlet.DynamoHttpServletResponse)
