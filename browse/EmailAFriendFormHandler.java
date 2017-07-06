@@ -37,6 +37,8 @@ import com.bbb.logging.LogMessageFormatter;
 import com.bbb.profile.session.BBBSessionBean;
 import com.bbb.utils.BBBUtility;
 
+
+// Email from File
 /**
  * Form handler for sending email from the ATG Store website. <br/> The JSP form
  * that accepts the email can directly set the From, Subject and To fields or
