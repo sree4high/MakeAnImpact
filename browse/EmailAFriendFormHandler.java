@@ -774,6 +774,7 @@ public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 		this.mCcFlag = mCcFlag;
 	}
 	// Last one from : FILE
+// Last one: WEB	
 
 
 }
