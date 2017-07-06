@@ -46,6 +46,7 @@ import com.bbb.utils.BBBUtility;
  * and Profile parameters that are sent to the Email Template are set in the
  * configuration and must match the email template. <br/>
  */
+// Email from Web
 public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 
 	private static final String EMAIL_A_FRIEND_PDP = "EmailAFriendPDP";
