@@ -20,6 +20,7 @@ public class BazaarVoiceUtil {
 	private static final ApplicationLogging MLOGGING =
 		    ClassLoggingFactory.getFactory().getLoggerForClass(BazaarVoiceUtil.class);
 
+	// this is again for testing
 	private BazaarVoiceUtil(){
 		
 	}
