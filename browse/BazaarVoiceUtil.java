@@ -14,6 +14,7 @@ import atg.servlet.ServletUtil;
 
 import com.bbb.constants.BBBCoreConstants;
 import com.bbb.utils.BBBUtility;
+//From web browser
 // From file browser
 public class BazaarVoiceUtil {
 	
