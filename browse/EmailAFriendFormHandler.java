@@ -146,6 +146,7 @@ public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 	public void setSuccessUrlMap(Map<String, String> successUrlMap) {
 		this.successUrlMap = successUrlMap;
 	}
+//This wil create conflicts: from Web
 // This is for conflicts from : FILE
 	/**
 	 * @return Catalog URL
