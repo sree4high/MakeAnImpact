@@ -29,6 +29,8 @@ import com.bbb.utils.BBBUtility;
  *	Output will be replaced by "/tbs/"
  *	 
  */
+
+// Added from the browser
 public class AddContextPathDroplet extends BBBDynamoServlet{
 	
 	@Override
