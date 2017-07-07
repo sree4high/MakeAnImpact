@@ -14,13 +14,13 @@ import atg.servlet.ServletUtil;
 
 import com.bbb.constants.BBBCoreConstants;
 import com.bbb.utils.BBBUtility;
-//From web browser
-// From file browser
+
 public class BazaarVoiceUtil {
 	
 	private static final ApplicationLogging MLOGGING =
 		    ClassLoggingFactory.getFactory().getLoggerForClass(BazaarVoiceUtil.class);
 
+	// this is again for testing
 	private BazaarVoiceUtil(){
 		
 	}
@@ -65,14 +65,6 @@ public class BazaarVoiceUtil {
 		return new UserToken(userID, sharedKey, emailId);
 	}
 
-	/**
-	This method is added newly.
-	*/
-	public forFun(){
-	
-	//This is just for fun.
-	}
-	
 	/**
 	 * A date-stamped stamped set of user attributes, including the user ID.
 	 */

@@ -19,13 +19,9 @@ import com.bbb.profile.session.BBBSessionBean;
  * @author agupt8
  *
  */
- // for conflict: FILE
-// again for conflict : WEB
 public class BBBCaptchaServlet extends BBBDynamoServlet {
 	protected int width=300;
 	protected int height=100;
-	
-	// no conflict: WEB
 	
 	/* (non-Javadoc)
 	 * @see atg.servlet.DynamoServlet#service(atg.servlet.DynamoHttpServletRequest, atg.servlet.DynamoHttpServletResponse)
@@ -55,5 +51,5 @@ public class BBBCaptchaServlet extends BBBDynamoServlet {
 		sessionBean.setCaptcha(captcha);
 		
 	}
-	// What will happen?
+	
 }

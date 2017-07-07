@@ -37,12 +37,6 @@ import com.bbb.logging.LogMessageFormatter;
 import com.bbb.profile.session.BBBSessionBean;
 import com.bbb.utils.BBBUtility;
 
-
-
-// Email from File
-
-// Email from whom?
-
 /**
  * Form handler for sending email from the ATG Store website. <br/> The JSP form
  * that accepts the email can directly set the From, Subject and To fields or
@@ -52,7 +46,6 @@ import com.bbb.utils.BBBUtility;
  * and Profile parameters that are sent to the Email Template are set in the
  * configuration and must match the email template. <br/>
  */
-// Email from Web
 public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 
 	private static final String EMAIL_A_FRIEND_PDP = "EmailAFriendPDP";
@@ -150,8 +143,7 @@ public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 	public void setSuccessUrlMap(Map<String, String> successUrlMap) {
 		this.successUrlMap = successUrlMap;
 	}
-//This wil create conflicts: from Web
-// This is for conflicts from : FILE
+
 	/**
 	 * @return Catalog URL
 	 */
@@ -777,8 +769,7 @@ public class EmailAFriendFormHandler extends BBBEmailSenderFormHandler {
 	public void setCcFlag(boolean mCcFlag) {
 		this.mCcFlag = mCcFlag;
 	}
-	// Last one from : FILE
-// Last one: WEB	
+	
 
 
 }
